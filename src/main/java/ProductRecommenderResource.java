@@ -24,7 +24,7 @@ public class ProductRecommenderResource{
     private final String productLookupUrl = "http://api.bazaarvoice.com/data/products.json?PassKey=%1$s&ApiVersion=5.4&filter=id:%2$s";
 
     public ProductRecommenderResource() {
-        jedis = new Jedis("localhost");
+        jedis = new Jedis("10.247.3.160");
     }
 
     @GET
@@ -42,7 +42,7 @@ public class ProductRecommenderResource{
         Set<String> dummyProdIds = Sets.newHashSet();
         dummyProdIds.add("test1");
         dummyProdIds.add("test");
-        return getProductInfo(queryParams, client, prodIds);
+        return getProductInfo(queryParams, client, dummyProdIds);
     }
 
     private Response getProductInfo(MultivaluedMap<String, String> queryParams, String client, Set<String> prodIds) throws IOException {

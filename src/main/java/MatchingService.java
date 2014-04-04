@@ -2,6 +2,7 @@ import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.google.inject.Module;
 import com.yammer.dropwizard.Service;
+import com.yammer.dropwizard.assets.AssetsBundle;
 import com.yammer.dropwizard.config.Bootstrap;
 import com.yammer.dropwizard.config.Environment;
 import config.MatchingServiceConfig;
@@ -10,7 +11,7 @@ import redis.clients.jedis.Jedis;
 public class MatchingService extends Service<MatchingServiceConfig>{
 
     public static void main(String[] args) throws Exception {
-        setupJedis();
+        //setupJedis();
         new MatchingService().run(args);
     }
 
@@ -117,12 +118,14 @@ public class MatchingService extends Service<MatchingServiceConfig>{
     @Override
     public void initialize(Bootstrap bootstrap) {
         bootstrap.setName("productRecommendationService");
+        bootstrap.addBundle(new AssetsBundle("/www/", "/www"));
     }
 
     @Override
     public void run(MatchingServiceConfig configuration, Environment environment) throws Exception {
         Injector injector = Guice.createInjector(makeModule(configuration, environment));
         environment.addResource(injector.getInstance(ProductRecommenderResource.class));
+
     }
 
     protected Module makeModule(MatchingServiceConfig config, Environment environment) {
