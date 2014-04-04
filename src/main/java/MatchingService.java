@@ -2,6 +2,7 @@ import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.google.inject.Module;
 import com.yammer.dropwizard.Service;
+import com.yammer.dropwizard.assets.AssetsBundle;
 import com.yammer.dropwizard.config.Bootstrap;
 import com.yammer.dropwizard.config.Environment;
 import config.MatchingServiceConfig;
@@ -117,6 +118,7 @@ public class MatchingService extends Service<MatchingServiceConfig>{
     @Override
     public void initialize(Bootstrap bootstrap) {
         bootstrap.setName("productRecommendationService");
+        bootstrap.addBundle(new AssetsBundle("/www/", "/www/"));
     }
 
     @Override
