@@ -17,7 +17,7 @@ public class MatchingService extends Service<MatchingServiceConfig>{
     private static void setupJedis() {
         Jedis jedis = new Jedis("localhost");
 
-        jedis.sadd("bestbuy.apikey", "e88x234atljrwymp14f7zek7i");
+        jedis.set("bestbuy.apikey", "e88x234atljrwymp14f7zek7i");
 
         jedis.sadd("bestbuy.users", "1", "2", "3", "4", "5");
 

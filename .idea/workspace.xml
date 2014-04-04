@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b01be08-ac1f-48a5-b3bb-629c6dad2845" name="Default" comment="" />
+    <list default="true" id="2b01be08-ac1f-48a5-b3bb-629c6dad2845" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_1_2.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BVIO2014.iml" afterPath="$PROJECT_DIR$/BVIO2014.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MatchingService.java" afterPath="$PROJECT_DIR$/src/main/java/MatchingService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ProductRecommenderResource.java" afterPath="$PROJECT_DIR$/src/main/java/ProductRecommenderResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="BVIO2014.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="2b01be08-ac1f-48a5-b3bb-629c6dad2845" time="1396556976241" ignored="false" />
-    <file path="/MatchingService.java" changelist="2b01be08-ac1f-48a5-b3bb-629c6dad2845" time="1396583531099" ignored="false" />
+    <file path="/pom.xml" changelist="2b01be08-ac1f-48a5-b3bb-629c6dad2845" time="1396587127305" ignored="false" />
+    <file path="/MatchingService.java" changelist="2b01be08-ac1f-48a5-b3bb-629c6dad2845" time="1396584420527" ignored="false" />
     <file path="$PROJECT_DIR$/../concierge/service/src/main/java/com/bazaarvoice/concierge/ConciergeService.java" changelist="2b01be08-ac1f-48a5-b3bb-629c6dad2845" time="1396556695141" ignored="false" />
-    <file path="/ProductRecommenderResource.java" changelist="2b01be08-ac1f-48a5-b3bb-629c6dad2845" time="1396583752403" ignored="false" />
+    <file path="/ProductRecommenderResource.java" changelist="2b01be08-ac1f-48a5-b3bb-629c6dad2845" time="1396587622835" ignored="false" />
     <file path="/fragment.java" changelist="2b01be08-ac1f-48a5-b3bb-629c6dad2845" time="1396582792687" ignored="false" />
     <file path="/ProductRecomenderModule.java" changelist="2b01be08-ac1f-48a5-b3bb-629c6dad2845" time="1396571320906" ignored="false" />
+    <file path="/Dummy.txt" changelist="2b01be08-ac1f-48a5-b3bb-629c6dad2845" time="1396587177323" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +82,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ProductRecommenderResource.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ProductRecommenderResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="0" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.47551343">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="20" selection-start="1837" selection-end="1837" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ProductRecomenderModule.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ProductRecomenderModule.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,22 +111,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductRecommenderResource.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ProductRecommenderResource.java">
+      <file leaf-file-name="MatchingService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MatchingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="8" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.35703">
+            <state line="32" column="46" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServletHandler.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/8.1.10.v20130312/jetty-servlet-8.1.10.v20130312.jar!/org/eclipse/jetty/servlet/ServletHandler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="166" column="20" selection-start="9946" selection-end="9946" vertical-scroll-proportion="-18.8">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -106,14 +129,22 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/config/MatchingServiceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/bvio2014.yaml" />
         <option value="$PROJECT_DIR$/src/main/java/ProductRecomenderModule.java" />
         <option value="$PROJECT_DIR$/src/main/java/MatchingService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ProductRecommenderResource.java" />
       </list>
     </option>
@@ -402,7 +433,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -422,7 +453,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2470651" sideWeight="0.60072595" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2470651" sideWeight="0.60072595" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -496,20 +527,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-jetty/2.2.0/metrics-jetty-2.2.0.jar!/com/yammer/metrics/jetty/InstrumentedHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="16" selection-start="1691" selection-end="1691" vertical-scroll-proportion="-18.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.10.v20130312/jetty-server-8.1.10.v20130312.jar!/org/eclipse/jetty/server/handler/HandlerWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="807" selection-end="807" vertical-scroll-proportion="-12.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.10.v20130312/jetty-server-8.1.10.v20130312.jar!/org/eclipse/jetty/server/handler/ScopedHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="22" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.5546219">
@@ -566,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProductRecomenderModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2353" column="20" selection-start="93245" selection-end="93245" vertical-scroll-proportion="0.33333334">
@@ -587,15 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MatchingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="17" selection-start="4544" selection-end="4544" vertical-scroll-proportion="0.6919431">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.4.2/jedis-2.4.2-sources.jar!/redis/clients/jedis/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="0" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.90047395">
@@ -603,9 +604,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProductRecomenderModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MatchingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="46" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.jar!/javax/ws/rs/core/Response.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="193" selection-end="193" vertical-scroll-proportion="-1.2857143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="20" selection-start="1837" selection-end="1837" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ProductRecommenderResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="8" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.35703">
+        <state line="63" column="0" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.47551343">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
