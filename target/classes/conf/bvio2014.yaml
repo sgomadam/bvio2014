@@ -1,0 +1,4 @@
+# Change default ports of the HTTP connector for service and administration requests
+http:
+  port: 8082
+  adminPort: 8083
