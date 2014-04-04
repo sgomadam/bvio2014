@@ -80,8 +80,11 @@ public class ProductRecommenderResource{
         String clientUserkey = client + ".users";
         Set<String> users = jedis.smembers(clientUserkey);
         //bestbuy.inter.1-2.1
-        String userKeyPattern = client + "." + "inter" + "." + user + "-" +  "*" + "." + rating;
-        Set<String> matchingUsers = jedis.keys(userKeyPattern);
+        String userKeyPattern1 = client + "." + "inter" + "." + user + "-" +  "*"    + "." + rating;
+        String userKeyPattern2 = client + "." + "inter" + "." + "*"  + "-" +  user + "." + rating;
+
+        Set<String> matchingUsers = jedis.keys(userKeyPattern1);
+        matchingUsers.addAll(jedis.keys(userKeyPattern2));
 
         int bestMatchedProductCount = 0;
         String bestMatchedUserPair = "";
